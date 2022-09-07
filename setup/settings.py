@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-6te25(m-pe!9y9ogn!yax2ed3hb&nj$yx$_on^tg2t1(z^-$vt
 DEBUG = True
 
 #quando o deploy da certo aqui o endereço do app
-ALLOWED_HOSTS = ['localrost', 'maria-projeto.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','maria-projeto.herokuapp.com']
 
 
 # Application definition
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'restaurante',
 ]
 
 MIDDLEWARE = [
