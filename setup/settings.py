@@ -121,8 +121,7 @@ USE_TZ = True
 #cores django-cores-headers disponivel em 
 #https://pypi.org/project/django-cors-headers/
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000',
-    
+    "http://localhost:3000", 
 ]
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
